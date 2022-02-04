@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'confectionregular';
+    src: url('confection-regular-webfont.woff2') format('woff2'),
+         url('confection-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+    background-image: url("Add-on-Img-2.png");
+    color: #fff;
+    font-family: 'confectionregular';
+    font-size: 2em;
+    text-align: center;
+}
+canvas {
+    border: solid .2em #fff;
+    height: 90vh;
+}
