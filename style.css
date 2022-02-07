@@ -17,8 +17,21 @@ body {
     font-family: 'confectionregular';
     font-size: 2em;
     text-align: center;
+    height: 100vh;
 }
 canvas {
     border: solid .2em #fff;
-    height: 90vh;
+    height: 70vh;
+}
+
+button {
+    border-radius: 5em;
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0.1rem;
 }

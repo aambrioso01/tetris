@@ -105,8 +105,8 @@ function draw() {
     img.src = "gallery-1.jpg";    
     var pat = context.createPattern(img, "no-repeat");
 
-    var my_gradient = context.createLinearGradient(0, 0, 0, 100);
-    my_gradient.addColorStop(0, "black");
+    var my_gradient = context.createLinearGradient(0, 0, 0, 50);
+    my_gradient.addColorStop(0, "burlywood");
     my_gradient.addColorStop(1, "#8825f9");
     
     context.fillStyle = my_gradient;
