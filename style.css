@@ -32,3 +32,7 @@ button {
     font-size: 25px !important;
     margin: 2px;
 }
+
+.row {
+    height: 18vh;
+}
