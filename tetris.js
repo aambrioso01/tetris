@@ -103,7 +103,7 @@ function createPiece(type) {
 function draw() {
     var img = document.createElement("img");
     img.src = "gallery-1.jpg";    
-    var pat = context.createPattern(img, "no-repeat");
+    // var pat = context.createPattern(img, "no-repeat");
 
     var my_gradient = context.createLinearGradient(0, 0, 0, 50);
     my_gradient.addColorStop(0, "burlywood");

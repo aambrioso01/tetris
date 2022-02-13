@@ -45,6 +45,17 @@ button {
     color: #fff;
 }
 
+.btn:hover {
+    background: rgba(201, 107, 19, 0.3) !important;
+    color: #fff;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .row {
         height: 5vh;
 }
