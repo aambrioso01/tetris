@@ -72,6 +72,10 @@ button {
   height: 5vh;
 }
 
+#score {
+  font-size: 60px;
+}
+
 .glow {
   font-size: 25px;
   color: #fff;
