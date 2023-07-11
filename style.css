@@ -1,53 +1,65 @@
-#content-desktop {display: block;}
-#content-mobile {display: none;}
+#content-desktop {
+  display: block;
+}
+
+#content-mobile {
+  display: none;
+}
 
 @media screen and (max-width: 992px) {
 
-    #content-desktop {display: none;}
-    #content-mobile {display: flex !important;}
+  #content-desktop {
+    display: none;
+  }
 
-    body {
-        background-image: url("comic-bg.png");
-    }
+  #content-mobile {
+    display: flex !important;
+    max-width: 100%;
+  }
+
+  body {
+    background-image: url("comic-bg.png");
+  }
 
 }
 
 
 @font-face {
-    font-family: 'confectionregular';
-    src: url('confection-regular-webfont.woff2') format('woff2'),
-         url('confection-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'confectionregular';
+  src: url('confection-regular-webfont.woff2') format('woff2'),
+    url('confection-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-    background-position: center center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    object-position: center;
-    background-size: cover;
-    background-image: url("Add-on-Img-2.png");
-    color: #fff;
-    font-family: 'confectionregular';
-    font-size: 2em;
-    text-align: center;
-    height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-image: url("Add-on-Img-2.png");
+  color: #fff;
+  font-family: 'confectionregular';
+  font-size: 2em;
+  text-align: center;
+  height: 100vh;
 }
+
 canvas {
-    border: solid .2em #fff;
-    height: 70vh;
+  border: solid .2em #fff;
+  height: 70vh;
 }
 
 button {
-    background: none !important;
-    border: none !important;
-    color: #fff;
+  background: none !important;
+  border: none !important;
+  color: #fff;
 }
 
 .btn:hover {
-    background: rgba(201, 107, 19, 0.3) !important;
-    color: #fff;
+  background: rgba(201, 107, 19, 0.3) !important;
+  color: #fff;
 }
 
 .btn:active {
@@ -57,23 +69,24 @@ button {
 }
 
 .row {
-        height: 5vh;
+  height: 5vh;
 }
-    
+
 .glow {
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
-  
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
